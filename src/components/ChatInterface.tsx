@@ -14,7 +14,7 @@ export function ChatInterface() {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
   };
 
-  useEffect(() => {
+  useEffect(() => { 
     scrollToBottom();
   }, [messages]);
 
